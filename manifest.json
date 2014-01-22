@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "GNDEC - TnP Extension",
+  "version": "1.0",
+  
+  "description": "Guru Nanak Dev Engineering College, Ludhiana latest Training and Placement Updates",
+  "icons": { "16": "images/TNPLogo38.png",
+             "48": "images/TNPLogo48.png",
+             "128": "images/TNPLogo128.png" },
+   "homepage_url": "http://gndec.ac.in/noticeboard/news.php?userid=19",
+  
+  "browser_action": {
+    "default_icon": {                    
+	  "19" : "images/TNPLogo38.png",
+      "38" : "images/TNPLogo38.png"
+    },
+	"default_title":"GNDEC, TnP Notice Board",
+	"default_popup":"popup.html"
+  },
+  
+  "permissions": [
+    "https://www.facebook.com/pages/Gndec-Training-and-Placement/288577771193880",
+	"tabs"
+  ]
+}
